@@ -156,7 +156,7 @@ def login():
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mThere is no connection"
 
-"
+
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mAisa lagta hai apka account checkpoint pe hai")
