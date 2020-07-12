@@ -128,7 +128,6 @@ def login():
 		except mechanize.URLError:
 			print"\n\033[1;96m[!] \x1b[1;91mThere is no connection"
 
-"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
